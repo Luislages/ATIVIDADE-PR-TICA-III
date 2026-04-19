@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: oklch(12.9% 0.042 264.695);
+}
+
+
+.pag{
+    width: 90%;
+    margin: 20px auto;
+}
+
+
+.hero{
+    height: 200px; 
+    background:oklch(21% 0.034 264.665);
+  
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+}
+
+
+.blocos{
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.bloco{
+    flex: 1;
+    min-width: 30%; 
+    height: 100px;
+    background:oklch(27.9% 0.041 260.031);
+}
+
+
+.cta{
+    background: oklch(64.5% 0.246 16.439);
+    height: 60px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+
+.footer{
+    background: oklch(87.2% 0.01 258.338);
+    color: white;
+    height: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

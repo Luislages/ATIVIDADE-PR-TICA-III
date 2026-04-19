@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: oklch(12.9% 0.042 264.695);
+}
+
+.pagina{
+    display: flex;
+    height: 100vh;
+    background: #ddd;
+    padding: 10px;
+}
+
+
+.menu{
+    width: 150px;
+    background: oklch(21% 0.034 264.665);
+    color: white;
+    padding: 10px;
+}
+
+ 
+.principal{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.header{
+    background: oklch(21% 0.034 264.665);
+    color: white;
+    padding: 15px;
+}
+
+.conteudo{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.linha-topo{
+    display: flex;
+    gap: 10px;
+}
+
+.card{
+    flex: 1;
+    height: 80px;
+    background: oklch(21% 0.034 264.665);
+}
+
+.linha-baixo{
+    display: flex;
+    gap: 10px;
+    flex: 1;
+}
+
+.grande{
+    flex: 2;
+    background: oklch(21% 0.034 264.665);
+}
+
+.pequeno{
+    flex: 1;
+    background: oklch(21% 0.034 264.665);
+}

@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: oklch(12.9% 0.042 264.695);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.item {
+    background-color: oklch(28.2% 0.091 267.935);
+    height: 180px;
+    flex: 0 1 calc(33.33% - 10px);
+    border-radius: 2px;
+}
